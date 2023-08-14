@@ -1,0 +1,163 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #a8bb3d;
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+.todo-app {
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.todo-form2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    
+}
+
+
+.name2{
+    flex: 1; /* Allow the input to take available space */
+    /* width: 200px; */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    flex-shrink: 0;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.nameDiv {
+    text-align: center;
+}
+
+.hiName {
+    font-size: 18px;
+    color: #4caf50;
+    margin-top: 10px;
+}
+
+.todo-item {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.task-counter {
+    color: #999;
+    font-weight: bold;
+}
+
+.task-label {
+    flex: 1;
+    color: #333;
+}
+
+.delete-button {
+    background-color: #ff5733;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #e73c3c;
+}
+.edit-button {
+    background-color: #4caf50;;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.edit-button:hover {
+    background-color: #4caf50;;
+}
+
+.todo-List {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.todo-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#new-task {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    background-color: #fff;
+}
+
+input[type="text"]:focus {
+    border-color: #95b196;
+}
+.delete-selected-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin: 10px auto; /* Added margin to center the button horizontally */
+    display: block; /* Makes the button a block element to take full width */
+}
+
+.delete-selected-button:hover {
+    background-color: #45a049;
+}
+
+

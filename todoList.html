@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style2.css" />
+    
+    <title>Our to do app</title>
+</head>
+<body>
+    <div class="todo-app">
+        <h1>To do app</h1>
+        <form class="todo-form2">
+            <input type="text" id="name" class="name2" placeholder="Insert your name">
+            
+            <button type="submit" class="submit-button" id="submit-button2">Submit</button>
+        </form>
+        <div class="nameDiv" id="nameDiv2"><h3 class="hiName"></h3></div>
+        
+        <div class="todo-List" id="list-id">
+            <div class="todo-item">
+                <p class="task-counter">Task No: <span class="spanCounter">0</span></p>
+                
+                <input type="checkbox" />
+                <label class="task-label">Ex: Buy Groceries</label>
+                <button class="delete-button">X</button>
+                <button class="edit-button">Edit</button>
+            </div>
+            
+        </div>
+        <form class="todo-form">
+            <input type="text" id="new-task">
+            
+            <button type="submit" class="submit-button" placeholder="Add your task here">Submit</button>
+        </form>
+        <button class="delete-selected-button">Delete Selected</button>
+        <!-- <form class="todo-form3">
+            <input type="text" id="search" placeholder="search for task">
+            <button type="submit" class="submit-button3">Search</button>
+        </form> -->
+    </div>
+    
+    <script src="ourFunction.js"></script>
+</body>
+</html>
